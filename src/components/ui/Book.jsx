@@ -20,6 +20,7 @@ export default function Book({ book }) {
       }, 300);
     };
     return () => {
+      //when the component changes
       mountedRef.current = false;
     }
   })
